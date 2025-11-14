@@ -1,13 +1,11 @@
-version: '3.3'
-
 services:
 
   trilium:
-    image: zadam/trilium
+    image: zadam/trilium:latest
     container_name: trilium   
     restart: unless-stopped
     ports:
       - "8200:8080"
     volumes:
-      - ./trilium-data:/home/node/trilium-data
-      
+      - ./trilium-data:/home/node/trilium-data     
+
