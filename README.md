@@ -1,6 +1,3 @@
-# trilium
-Trilium - Notas - Docker compose
+# Trilium
 
-Ver en "localhost:8200"
-
-
+Ver en "http://localhost:8200"
